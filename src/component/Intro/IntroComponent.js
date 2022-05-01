@@ -23,7 +23,7 @@ const IntroComponent=()=>
         <div style={style.background}>
             <div style={{color:'gray',paddingTop:"40vh"}}>나만의 플레이리스트🎶</div>
             <img style={{width:'300px',height:'100px'}} src={logo}></img>
-            <Link to="/main" style={{textDecoration:'none'}}>
+            <Link to="/mypli/main" style={{textDecoration:'none'}}>
             <div onMouseOver={()=>{sethover(1)}} onMouseOut={()=>{sethover(0)}}style={hover?{transform:'scale(1.1)',transition:'all ease 0.3s',margin:'0 auto',width:'300px',height:'50px',backgroundColor:'rgb(0,162,255)',color:'white',borderRadius:'100px'}:{margin:'0 auto',width:'300px',height:'50px',backgroundColor:'rgb(0,162,255)',color:'white',borderRadius:'100px',transition:'all ease 0.3s',}}>
                 <div style={{paddingTop:'10px',fontSize:'20px'}}>시작하기
                     </div>

@@ -42,8 +42,8 @@ const App=()=>
   return(
     <div >
       <Routes>
-      <Route path="/music_share" element={<IntroComponent/>} />
-      <Route path="/music_share/main" element={<MainComponent />} />
+      <Route path="/mypli" element={<IntroComponent/>} />
+      <Route path="/mypli/main" element={<MainComponent />} />
     </Routes>
     </div>
   )
